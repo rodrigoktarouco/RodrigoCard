@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D742105260FDCF3004DE432 /* RodrigoCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D742104260FDCF3004DE432 /* RodrigoCardApp.swift */; };
+		9D742107260FDCF3004DE432 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D742106260FDCF3004DE432 /* ContentView.swift */; };
+		9D742109260FDCF6004DE432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D742108260FDCF6004DE432 /* Assets.xcassets */; };
+		9D74210C260FDCF6004DE432 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D74210B260FDCF6004DE432 /* Preview Assets.xcassets */; };
+		9D742116260FE109004DE432 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D742115260FE109004DE432 /* OpenSans-Regular.ttf */; };
+		9D742119260FE2B3004DE432 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D742118260FE2B3004DE432 /* Pacifico-Regular.ttf */; };
+		9DEF9355261009D200E08AF9 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF9354261009D200E08AF9 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D742101260FDCF3004DE432 /* RodrigoCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RodrigoCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D742104260FDCF3004DE432 /* RodrigoCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RodrigoCardApp.swift; sourceTree = "<group>"; };
+		9D742106260FDCF3004DE432 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D742108260FDCF6004DE432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D74210B260FDCF6004DE432 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D74210D260FDCF6004DE432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D742115260FE109004DE432 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		9D742118260FE2B3004DE432 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		9DEF9354261009D200E08AF9 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7420FE260FDCF3004DE432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D7420F8260FDCF3004DE432 = {
+			isa = PBXGroup;
+			children = (
+				9D742103260FDCF3004DE432 /* RodrigoCard */,
+				9D742102260FDCF3004DE432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D742102260FDCF3004DE432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D742101260FDCF3004DE432 /* RodrigoCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D742103260FDCF3004DE432 /* RodrigoCard */ = {
+			isa = PBXGroup;
+			children = (
+				9D742114260FE0EF004DE432 /* Fonts */,
+				9D742104260FDCF3004DE432 /* RodrigoCardApp.swift */,
+				9D742106260FDCF3004DE432 /* ContentView.swift */,
+				9DEF9354261009D200E08AF9 /* InfoView.swift */,
+				9D742108260FDCF6004DE432 /* Assets.xcassets */,
+				9D74210D260FDCF6004DE432 /* Info.plist */,
+				9D74210A260FDCF6004DE432 /* Preview Content */,
+			);
+			path = RodrigoCard;
+			sourceTree = "<group>";
+		};
+		9D74210A260FDCF6004DE432 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D74210B260FDCF6004DE432 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D742114260FE0EF004DE432 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9D742118260FE2B3004DE432 /* Pacifico-Regular.ttf */,
+				9D742115260FE109004DE432 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D742100260FDCF3004DE432 /* RodrigoCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D742110260FDCF6004DE432 /* Build configuration list for PBXNativeTarget "RodrigoCard" */;
+			buildPhases = (
+				9D7420FD260FDCF3004DE432 /* Sources */,
+				9D7420FE260FDCF3004DE432 /* Frameworks */,
+				9D7420FF260FDCF3004DE432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RodrigoCard;
+			productName = RodrigoCard;
+			productReference = 9D742101260FDCF3004DE432 /* RodrigoCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D7420F9260FDCF3004DE432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9D742100260FDCF3004DE432 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9D7420FC260FDCF3004DE432 /* Build configuration list for PBXProject "RodrigoCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D7420F8260FDCF3004DE432;
+			productRefGroup = 9D742102260FDCF3004DE432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D742100260FDCF3004DE432 /* RodrigoCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D7420FF260FDCF3004DE432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D74210C260FDCF6004DE432 /* Preview Assets.xcassets in Resources */,
+				9D742119260FE2B3004DE432 /* Pacifico-Regular.ttf in Resources */,
+				9D742116260FE109004DE432 /* OpenSans-Regular.ttf in Resources */,
+				9D742109260FDCF6004DE432 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D7420FD260FDCF3004DE432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D742107260FDCF3004DE432 /* ContentView.swift in Sources */,
+				9DEF9355261009D200E08AF9 /* InfoView.swift in Sources */,
+				9D742105260FDCF3004DE432 /* RodrigoCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D74210E260FDCF6004DE432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D74210F260FDCF6004DE432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D742111260FDCF6004DE432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RodrigoCard/Preview Content\"";
+				DEVELOPMENT_TEAM = TTJUS38QJA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RodrigoCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigoTarouco.RodrigoCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D742112260FDCF6004DE432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RodrigoCard/Preview Content\"";
+				DEVELOPMENT_TEAM = TTJUS38QJA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RodrigoCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigoTarouco.RodrigoCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7420FC260FDCF3004DE432 /* Build configuration list for PBXProject "RodrigoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D74210E260FDCF6004DE432 /* Debug */,
+				9D74210F260FDCF6004DE432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D742110260FDCF6004DE432 /* Build configuration list for PBXNativeTarget "RodrigoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D742111260FDCF6004DE432 /* Debug */,
+				9D742112260FDCF6004DE432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D7420F9260FDCF3004DE432 /* Project object */;
+}
